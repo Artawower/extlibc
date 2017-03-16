@@ -39,7 +39,7 @@ uint32_t list_length(list *list_ptr)
     return length;
 }
 
-list_node *list_get(list *list_ptr, uint32_t index)
+list_node *list_get_node(list *list_ptr, uint32_t index)
 {
     if (index > list_length(list_ptr) - 1)
         return NULL;

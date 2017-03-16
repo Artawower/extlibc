@@ -50,7 +50,7 @@ void list_init(list *list_ptr);
 uint32_t list_length(list *list_ptr);
 
 // Get node in list by index.
-list_node *list_get(list *list_ptr, uint32_t index);
+list_node *list_get_node(list *list_ptr, uint32_t index);
 
 // Push ready and allocated node to back.
 uint8_t list_push_node(list *list_ptr, list_node *node);
